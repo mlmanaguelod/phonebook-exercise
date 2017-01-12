@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-size: 18px;
+
+}
+
+.container{
+    width: 960px;
+    margin: 0 auto;
+    background-color: #eaeaea;
+}
+
+h4{
+    margin: 0;
+    padding: 10px;
+}
+
+.input-box{
+    width: 300px;
+    height: 40px;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+.form-fname{
+    display: inline-block;
+    margin-right: 250px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.form-lname{
+    display: inline-block;
+}
+.form-email{
+    display: inline-block;
+    margin-right: 250px;
+    margin-left: 30px;
+}
+
+.form-contact{
+    display: inline-block;
+}
+
+.text-memo{
+    width: 100%;
+    padding: 10px;
+}
+
+.text-memo h4{
+    margin-left: 20px;
+}
+
+.memotxt{
+    width: 875px;
+    height: 100px;
+    margin-left: 30px;
+}
+
+/* BUTTON */
+
+button{
+    width: 300px;
+    height: 40px;
+}
+
+.save-btn form{
+    display: inline-block;
+    margin-right: 210px;
+}
+
+.view-btn form{
+    display: inline-block;
+}
+
+.save-btn button{
+    margin: 20px;
+    margin-left: 40px;
+}
+
+.view-btn button{
+     margin: 20px;
+    margin-left: 40px;
+}
