@@ -25,7 +25,7 @@ foreach ($lines as $line) {
 ?>
 
 
-<!-- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -34,4 +34,4 @@ foreach ($lines as $line) {
 <body>
     <p><?php echo $user['fname']; ?>, '<br>' <?php echo $user['lname']; ?>, '<br>' <?php echo $user['email']; ?>, '<br>' <?php echo $user['contact']; ?>, '<br>' <?php echo $user['memo']; ?></p>
 </body>
-</html> -->
+</html>

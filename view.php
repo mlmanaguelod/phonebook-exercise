@@ -1,4 +1,19 @@
 <?php
+    $usersList = fopen("database.txt", "a+");
+    $inputTxt = "Firstname: ".$_POST['fname']." -> Lastname: ".$_POST['lname'];
+    fwrite($usersList, $inputTxt);
+    fclose($usersList);
+
+
+
+?>
+
+
+
+
+
+
+<!-- <?php
 
 
 $users = [
@@ -20,9 +35,9 @@ $users = [
     ];
 
 
-?>
+?> -->
 
-<table>
+<!-- <table>
     <thead>
         <tr>
             <th>Firstname</th>
@@ -43,4 +58,4 @@ $users = [
         </tr>
         <?php endforeach; ?>
     </tbody>
-</table>
+</table> -->
