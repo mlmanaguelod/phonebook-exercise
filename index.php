@@ -9,7 +9,7 @@
 
     <div class="container">
 
-        <form action="users.php" method="GET">
+        <form action="users.php" method="POST">
             <div class="form-fname">
                 <h4>First Name: </h4>
                 <input class="input-box" type="text" name="fname">
@@ -33,13 +33,13 @@
             </div>
         </form>
 
-        <form action="users.php" method="POST">
+        <form action="userSave.php" method="GET">
             <div class="save-btn">
                 <button type="submit">SAVE</button>
             </div>
         </form>
 
-        <form action="view.php" method="POST">
+        <form action="userSave2.php" method="POST">
             <div class="view-btn">
                 <button type="submit">VIEW PHONEBOOK</button>
             </div>

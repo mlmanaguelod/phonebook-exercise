@@ -1,4 +1,10 @@
-<?php
+
+
+
+
+
+
+<!-- <?php
     $usersList = fopen("database.txt", "a+");
     $inputTxt = "Firstname: ".$_POST['fname']." -> Lastname: ".$_POST['lname'];
     fwrite($usersList, $inputTxt);
@@ -6,7 +12,7 @@
 
 
 
-?>
+?> -->
 
 
 
@@ -50,7 +56,7 @@ $users = [
     <tbody>
         <?php foreach($users as $user): ?>
         <tr>
-            <td><a href="users.php?fname=<?php echo $user['fname']; ?>"> --><?php echo $user['fname']; ?></a></td>
+            <td><a href="users.php?fname=<?php echo $user['fname']; ?>"><?php echo $user['fname']; ?></a></td>
             <td><?php echo $user['lname']; ?></td>
             <td><?php echo $user['email']; ?></td>
             <td><?php echo $user['contact']; ?></td>
@@ -58,4 +64,4 @@ $users = [
         </tr>
         <?php endforeach; ?>
     </tbody>
-</table> -->
+</table>  -->
