@@ -5,10 +5,10 @@
 
 
 <!-- <?php
-    $usersList = fopen("database.txt", "a+");
-    $inputTxt = "Firstname: ".$_POST['fname']." -> Lastname: ".$_POST['lname'];
-    fwrite($usersList, $inputTxt);
-    fclose($usersList);
+   // $usersList = fopen("database.txt", "a+");
+   // $inputTxt = "Firstname: ".$_POST['fname']." -> Lastname: ".$_POST['lname'];
+   // fwrite($usersList, $inputTxt);
+   // fclose($usersList);
 
 
 
@@ -22,21 +22,21 @@
 <!-- <?php
 
 
-$users = [
+//$users = [
         [
-            'fname' => 'Maria Laarni',
-            'lname' => 'Managuelod',
-            'email' => 'mlm.managuelod@gmail.com',
-            'contact' => '09176764690',
-            'memo' => 'Hello world!'
+            // 'fname' => 'Maria Laarni',
+            // 'lname' => 'Managuelod',
+            // 'email' => 'mlm.managuelod@gmail.com',
+            // 'contact' => '09176764690',
+            // 'memo' => 'Hello world!'
         ],
 
         [
-            'fname' => 'Maria Laarni',
-            'lname' => 'Managuelod',
-            'email' => 'mlm.managuelod@gmail.com',
-            'contact' => '09176764690',
-            'memo' => 'Hello world!'
+            // 'fname' => 'Maria Laarni',
+            // 'lname' => 'Managuelod',
+            // 'email' => 'mlm.managuelod@gmail.com',
+            // 'contact' => '09176764690',
+            // 'memo' => 'Hello world!'
         ]
     ];
 

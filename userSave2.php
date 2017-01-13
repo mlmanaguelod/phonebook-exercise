@@ -1,4 +1,4 @@
-<?php
+<!-- <?php
 
 $userfname = $_POST['fname'];
 $userlname = $_POST['lname'];
@@ -18,11 +18,11 @@ $userList = fOpen("database.txt", 'r');
 $userInfo = fgets($userList);
 fclose($userList);
 
-?>
+?> -->
 
 
 
-<table>
+<!-- <table>
     <thead>
         <tr>
             <th>Firstname</th>
@@ -34,14 +34,14 @@ fclose($userList);
     </thead>
     <tbody>
         <tr>
-            <td><?php echo $userList['fname']; ?></td>
-            <td><?php echo $userList['lname']; ?></td>
-            <td><?php echo $userList['email']; ?></td>
-            <td><?php echo $userList['contact']; ?></td>
-            <td><?php echo $userList['memo']; ?></td>
+            <td><?php echo $userfname['fname']; ?></td>
+            <td><?php echo $userlname['lname']; ?></td>
+            <td><?php echo $useremail['email']; ?></td>
+            <td><?php echo $usercontact['contact']; ?></td>
+            <td><?php echo $usermemo['memo']; ?></td>
         </tr>
     </tbody>
-</table>
+</table> -->
 
 
 

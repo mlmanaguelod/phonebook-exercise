@@ -39,7 +39,7 @@
             </div>
         </form>
 
-        <form action="userSave2.php" method="POST">
+        <form action="viewPB.php" method="POST">
             <div class="view-btn">
                 <button type="submit">VIEW PHONEBOOK</button>
             </div>
